@@ -1,0 +1,30 @@
+{
+    "name": "chinovn/flarum-cards-bbcode",
+    "description": "Custom BBCode for private forum.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "forum": "https://discuss.flarum.org/",
+        "issues": "https://github.com/chinovn/flarum-cards-bbcode/issues",
+        "source": "https://github.com/chinovn/flarum-cards-bbcode"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.6 || ^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChinoVN\\BBCode\\Cards\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Cards BBCode",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-th-list",
+                "backgroundColor": "#99cc33",
+                "color": "#FFFFFF"
+            }
+        }
+    }
+}
